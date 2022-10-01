@@ -30,8 +30,8 @@
 // Palette.
 	$palette: (
 		bg:					rgb(255, 255, 255),
-		fg:					#888,
-		fg-bold:			#777,
+		fg:					rgb(24, 24, 24),	// original #888,	
+		fg-bold:			rgb(78, 78, 78),	// original #777,
 		fg-light:			#aaa,
 		border:				#f4f4f4,
 		border-bg:			#fafafa,
