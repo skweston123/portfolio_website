@@ -28,7 +28,7 @@
 						<li><a href="#three">Actuator Selection</a></li>
 						<li><a href="#four">Drill Press Vise</a></li>
 						<li><a href="#five">Inverted Pendulum</a></li>
-						<li><a href="#six">Projects</a></li>
+						<li><a href="#six">Servo Controller</a></li>
 						<li><a href="#seven">Contact</a></li>
 					</ul>
 				</nav>
@@ -65,7 +65,7 @@
 						<section id="two">
 							<div class="container">
 								<h3>UV LED Controller</h3>
-								<p>The UV LED Controller was a component of my senior design project for my engineering degree. This was a group project with three other students. However, the UV LED controller shown below was done by me. </p>
+								<p>This UV LED Controller was a component of my senior design project for my engineering degree. The overall project was a group project with three other students, but the UV LED controller portion shown below was done by me.</p>
 								
 								<h4>What</h4>
 								<ul>
@@ -87,8 +87,14 @@
 								</ul>
 
 								<a class="image fit"><img src="images/LED driver circuit revision B.JPG" alt=""/></a>
-								<a class="image fit"><img src="images/IMG_8577.jpg" alt="" /></a>
-								<a class="image fit"><img src="images/LED_box_front.jpg" alt="" /></a>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-8"><span class="image fit"><img src="images/IMG_8577.jpg" alt="" /></span></div>
+										<div class="col-4"><span class="image fit"><img src="images/Copy of IMG_8574.jpg" alt="" /></span></div>
+									</div>
+								</div>
+
 							</div>
 						</section>
 
@@ -96,7 +102,7 @@
 						<section id="three">
 							<div class="container">
 								<h3>High Precision Actuator Selection </h3>
-								<p>This was also a component of my senior design project, and this part was a collaborative effort, with all of us contributing input into the decisions made.</p>
+								<p>This was also a component of my senior design project, and this part was a collaborative effort, with all of four team members contributing input into the decisions made.</p>
 
 								<h4>What</h4>
 								<ul>
@@ -131,8 +137,8 @@
 						<!-- Four -->
 						<section id="four">
 							<div class="container">
-								<h3>Drill press vise</h3>
-								<p>An in-class project that would be designed in one class and manufactured in the next.</p>
+								<h3>Drill Press Vise</h3>
+								<p>An in-class project that was designed in one class and manufactured in the next.</p>
 								
 								<h4>What</h4>
 								<ul>
@@ -154,13 +160,21 @@
 									<li>Dimensions and tolerances of the design were deemed correct for the vise to function as intended</li>
 									<li>Several parts of the vise were manufactured to within the specifications of the drawings, but the vise wasn't completed due to issues with machine availability</li>
 								</ul>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-7"><span class="image fit"><img src="images/Vise_exploded.jpg" alt="" /></span></div>
+										<div class="col-5"><span class="image fit"><img src="images/Vise.jpg" alt="" /></span></div>
+									</div>
+								</div>
+
 							</div>
 						</section>					
 
 						<!-- Five -->
 						<section id="five">
 							<div class="container">
-								<h3>Inverted pendulum</h3>
+								<h3>Inverted Pendulum</h3>
 								<p>The final project for my intro to mechatronics class, it was a group project with me and one other person.</p>
 								
 								<h4>What</h4>
@@ -189,10 +203,45 @@
 										<div class="col-7"><span class="image fit"><img src="images/iverted_pendulum.jpg" alt="" /></span></div>
 									</div>
 								</div>
+						</section>
+
+						<!-- Six -->
+						<section id="six">
+							<div class="container">
+								<h3>Servo Controller</h3>
+								<p>Final project for my intro to embedded systems class.</p>
+								
+								<h4>What</h4>
+								<ul>
+									<li>Use an MSP430 micro controller to read a potentiometer position and turn a small servo motor in response to the position of the potentiometer</li>
+									<li>LEDs would indicate when the potentiometer reached the halfway point</li>
+									<li>Had to demonstrate the use of three peripherals, three interrupt service routines, and two external devices</li>
+								</ul>
+
+								<h4>How</h4>
+								<ul>
+									<li>Code for the MSP430 was written in C</li>
+									<li>The three peripherals used were: Digital I/O for the LEDs, timers for the PWM to drive the servo, and the analog to digital converter to read the potentiometer position</li>
+									<li>Two interrupt service routines were used with the timer to drive the PWM signal, and the third was triggered when the ADC finished its conversion</li>
+									<li>The value read by the ADC was mapped to a pulse duration value to drive the servo</li>
+								</ul>
+
+								<h4>Result</h4>
+								<ul>
+									<li>The servo moved as expected in response to the turning of the potentiometer knob</li>
+									<li>The LEDs properly indicated when the knob reached its halfway point</li>
+								</ul>
+
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
+										<div class="col-6"><span class="image fit"><img src="images/servo.png" alt="" /></span></div>
+										<div class="col-6"><span class="image fit"><img src="images/ccs.png" alt="" /></span></div>
+									</div>
+								</div>
 
 
 							</div>
-						</section>
+						</section>						
 						
 						<!-- Five -->
 							<!-- <section id="ten">
@@ -247,7 +296,8 @@
 									<h3>Contact Me</h3>
 									<p>Email: skweston123@gmail.com<br>
 										Phone: (206) 755-1856<br>
-										LinkedIn: <a href="https://www.linkedin.com/in/sam-k-weston/">linkedin.com/in/sam-k-weston</a></p>
+										LinkedIn: <a href="https://www.linkedin.com/in/sam-k-weston/">linkedin.com/in/sam-k-weston</a><br>
+										Resume: <a href="images/Sam Weston Resume Fall 2022.pdf" target="_blank">View Resume</a></p>
 								</div>
 							</section>
 
@@ -588,7 +638,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Sam Weston. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
