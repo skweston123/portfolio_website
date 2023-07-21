@@ -83,7 +83,6 @@ body {
   background: rgb(255, 255, 255);
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-  -webkit-animation: none !important;
   animation: none !important;
   transition: none !important;
 }
@@ -1894,17 +1893,17 @@ ul.actions.fit.stacked {
     padding-top: 0;
   }
   ul.actions:not(.fixed) li input[type=submit],
-ul.actions:not(.fixed) li input[type=reset],
-ul.actions:not(.fixed) li input[type=button],
-ul.actions:not(.fixed) li button,
-ul.actions:not(.fixed) li .button {
+  ul.actions:not(.fixed) li input[type=reset],
+  ul.actions:not(.fixed) li input[type=button],
+  ul.actions:not(.fixed) li button,
+  ul.actions:not(.fixed) li .button {
     width: 100%;
   }
   ul.actions:not(.fixed) li input[type=submit].icon:before,
-ul.actions:not(.fixed) li input[type=reset].icon:before,
-ul.actions:not(.fixed) li input[type=button].icon:before,
-ul.actions:not(.fixed) li button.icon:before,
-ul.actions:not(.fixed) li .button.icon:before {
+  ul.actions:not(.fixed) li input[type=reset].icon:before,
+  ul.actions:not(.fixed) li input[type=button].icon:before,
+  ul.actions:not(.fixed) li button.icon:before,
+  ul.actions:not(.fixed) li .button.icon:before {
     margin-left: -0.5rem;
   }
 }
@@ -2387,7 +2386,6 @@ input[type=button]:disabled,
   }
   /* Header */
   #header {
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.5s ease;
     display: block;
@@ -2410,14 +2408,12 @@ input[type=button]:disabled,
   }
   /* Wrapper */
   #wrapper {
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.5s ease;
     padding: 44px 0 1px 0;
   }
   /* Header Panel */
   #titleBar {
-    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     transition: transform 0.5s ease;
     display: block;
@@ -2631,9 +2627,9 @@ input[type=button]:disabled,
   }
   /* Button */
   input[type=submit],
-input[type=reset],
-input[type=button],
-.button {
+  input[type=reset],
+  input[type=button],
+  .button {
     padding: 0;
   }
 }/*# sourceMappingURL=main.css.map */
